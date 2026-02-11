@@ -8,16 +8,16 @@ from urllib.parse import unquote, urljoin
 
 # ================= 📝 用戶設定區 =================
 # 小說檔名 (必填)
-NOVEL_NAME = "AliceSW_Novel_31893" 
+NOVEL_NAME = "Novel_31893" 
 
 # 如果 JSON 裡讀不到目錄網址，才會用這個備用的
-BACKUP_CATALOG_URL = "https://www.alicesw.com/other/chapters/id/31893.html" 
+BACKUP_CATALOG_URL = "https://www.123.com/other/chapters/id/31893.html" 
 
 # 跳過前幾章 (預設 45)
 SKIP_COUNT = 0 
 # ===============================================
 
-BASE_URL = "https://www.alicesw.com"
+BASE_URL = "https://www.123.com"
 
 def load_config_from_json(filename="cookie.json"):
     """
